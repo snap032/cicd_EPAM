@@ -1,11 +1,11 @@
 import random
 
-buzz = ('jenkins', 'TravisCI, CircleCI',
+buzz = (',jenkins', ',TravisCI, CircleCI',
     'TeamCity', 'Bamboo', 'wercker')
-adjectives = ('aws', 'azure', 'Google Cloud Platform', 'openstack', 'openshift')
-adverbs = ('kubernetes', 'rancher', 'swarm', 'mesos',
-    'seriously')
-verbs = ('zabbix', 'new relic', 'kibana', 'Nagios', 'Prometheus')
+adjectives = ('Aws', 'Azure', 'Google Cloud Platform', 'Openstack', 'Openshift')
+adverbs = (',kubernetes', 'rancher', 'swarm', 'mesos',
+    ',seriously')
+verbs = (',zabbix', 'new relic', 'kibana', 'Nagios', 'Prometheus')
 
 def sample(l, n = 1):
     result = random.sample(l, n)

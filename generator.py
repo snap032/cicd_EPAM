@@ -1,6 +1,6 @@
 import random
 
-buzz = (',jenkins', ',TravisCI, CircleCI',
+buzz = ('jenkins', ',TravisCI, CircleCI',
     'TeamCity', 'Bamboo', 'wercker')
 adjectives = ('Aws', ' Azure', 'Google Cloud Platform', 'Openstack', 'Openshift')
 adverbs = (',kubernetes', 'rancher', 'swarm', 'mesos',

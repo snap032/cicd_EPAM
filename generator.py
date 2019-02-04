@@ -1,11 +1,11 @@
 import random
 
-buzz = ('continuous testing', 'GIT, GITHUB',
-    'continuous deployment', 'AWS AND KUBERNETES', 'devops')
-adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
-adverbs = ('remarkably', 'enormously', 'substantially', 'significantly',
+buzz = ('jenkins', 'TravisCI, CircleCI',
+    'TeamCity', 'Bamboo', 'wercker')
+adjectives = ('aws', 'azure', 'Google Cloud Platform', 'openstack', 'openshift')
+adverbs = ('kubernetes', 'rancher', 'swarm', 'mesos',
     'seriously')
-verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
+verbs = ('zabbix', 'new relic', 'kibana', 'Nagios', 'Prometheus')
 
 def sample(l, n = 1):
     result = random.sample(l, n)

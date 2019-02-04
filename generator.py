@@ -2,7 +2,7 @@ import random
 
 buzz = (',jenkins', ',TravisCI, CircleCI',
     'TeamCity', 'Bamboo', 'wercker')
-adjectives = ('Aws', 'Azure', 'Google Cloud Platform', 'Openstack', 'Openshift')
+adjectives = ('Aws', ' Azure', 'Google Cloud Platform', 'Openstack', 'Openshift')
 adverbs = (',kubernetes', 'rancher', 'swarm', 'mesos',
     ',seriously')
 verbs = (',zabbix', 'new relic', 'kibana', 'Nagios', 'Prometheus')
